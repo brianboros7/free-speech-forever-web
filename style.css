@@ -31,28 +31,28 @@ nav {
     display: flex;
     width: 100%; 
     background-color: var(--contrast-color); 
-    padding: 4px 4px; 
 }
 .main-banner-image {
-    width: 50%; 
+    width: 45%; 
 }
 .main-banner-image img {
     width: 100%; 
 }
 .main-banner-content-wrapper {
-    padding: 7.5px 7.5px; 
-    width: 50%; 
+    width: 55%; 
+    border: 1px solid var(--contrast-color); 
 }
 .main-banner-content {
     width: 100%; 
     background-color: var(--primary-color);
-    padding: 0 2.5px;
 }
-.main-banner-content h2 {
+.main-banner-content h1 {
     width: 100%; 
-    padding: 12px 10px; 
-    font-size: 24px; 
+    font-size: 20px; 
     color: var(--font-color); 
+    padding: 4px 2px 2px 2.5px; 
+    line-height: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ================================================ */ 
